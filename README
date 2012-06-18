@@ -1,0 +1,7 @@
+Commons Media Info Repository
+-------------------------------
+This is the media info repository. Contains the commons-media-info project and belongs to the commons area of pixelsimple.
+This module offers a MediaInspector API that can query a given media file and return all the container information. 
+The contianer also contains the different Stream information and its attributes packed. 
+This module only deals with media querying and not transcoding.
+The main returned data types are: Container which in turn contains Stream. The Container object has information about the number of streams as well.
