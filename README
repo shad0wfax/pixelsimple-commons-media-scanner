@@ -1,7 +1,6 @@
-Commons Media Info Repository
+Commons Media Scanner Repository
 -------------------------------
-This is the media info repository. Contains the commons-media-info project and belongs to the commons area of pixelsimple.
-This module offers a MediaInspector API that can query a given media file and return all the container information. 
-The contianer also contains the different Stream information and its attributes packed. 
-This module only deals with media querying and not transcoding.
-The main returned data types are: Container which in turn contains Stream. The Container object has information about the number of streams as well.
+
+This project is an API for scanning media files from various systems. The API accepts a resource and based on the resource type, scans the resource and returns back a list of matching files.
+The files can be filtered based on file extension names passed. 
+For the first version this module just supports only directory scanning. It is easy to build http/ftp etc scanners as need arises and keeps the cliets agnostic of how the resource is fetched.

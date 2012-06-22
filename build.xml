@@ -4,7 +4,7 @@
 <!-- Ant build file (http://ant.apache.org/) for Ant 1.6.2 or above.        -->
 <!-- ====================================================================== -->
 
-<project name="commons-media-info" default="publish-with-ivy" basedir="."  xmlns:ivy="antlib:org.apache.ivy.ant">
+<project name="commons-media-scanner" default="publish-with-ivy" basedir="."  xmlns:ivy="antlib:org.apache.ivy.ant">
   <!-- ====================================================================== -->
   <!-- The path to commons-build dir to pick resource from. Done so that it can be --> 
   <!-- changed at the CI level as needed. The path to commonsBuild can be elsewhere on CI. -->
