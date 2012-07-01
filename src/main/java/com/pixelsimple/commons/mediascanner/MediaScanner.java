@@ -11,6 +11,7 @@ import com.pixelsimple.commons.mediascanner.config.MediaScannerConfig;
 import com.pixelsimple.commons.mediascanner.config.MediaScannerRegistryKeys;
 
 /**
+ * A Factory class that provides a scanner to the client based on the type of resource being scanned.
  * @author Akshay Sharma
  *
  * Jun 18, 2012
